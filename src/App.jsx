@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Dashboard from './components/Dashboard';
 import ErrorBoundary from './components/ErrorBoundary';
 import Navbar from './components/Navbar';
-import Footer from './components/';
+import Footer from './components/Footer';
 
 function App() {
   const [category, setCategory] = useState('general');
